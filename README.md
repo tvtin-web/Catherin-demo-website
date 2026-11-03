@@ -6,7 +6,7 @@ A demo personal website: plain HTML/CSS/JS, no build step, hosted on Cloudflare.
 
 ```
 public/          Site root (served as-is)
-  index.html, about.html, projects.html, contact.html, 404.html
+  index.html, projects.html, about.html, experience.html, cv.html, contact.html, 404.html
   css/style.css
   js/main.js
   _headers       Cloudflare security/cache headers

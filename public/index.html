@@ -3,100 +3,176 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catherin — Engineering Student</title>
-  <meta name="description" content="Catherin is a second-year engineering student who builds innovative, Python-powered solutions and loves working in teams.">
+  <title>Catherine — Electrical Engineering Student</title>
+  <meta name="description" content="Catherine is a second-year electrical engineering student who builds innovative Python-powered systems and thrives in teams.">
+  <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="/">Catherin</a>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/about.html">About</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="brand-mark">C</span>Catherine</a>
+    <nav aria-label="Primary">
       <a href="/projects.html">Projects</a>
-      <a href="/contact.html">Contact</a>
+      <a href="/about.html">About</a>
+      <a href="/experience.html">Experience</a>
+      <a href="/cv.html">CV</a>
+      <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch between light and dark theme">Theme</button>
+      <a class="cta" href="/contact.html">Get in touch</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <section class="hero">
-      <div>
-        <p class="eyebrow">Hello, I'm Catherin 👋</p>
-        <h1>I build things that solve real problems.</h1>
-        <p class="lead">Second-year engineering student. Python enthusiast, team player and endless tinkerer, turning ideas into working prototypes.</p>
-        <div class="actions">
-          <a class="button" href="/projects.html">See my work</a>
-          <a class="button ghost" href="/contact.html">Get in touch</a>
-        </div>
-        <ul class="socials">
-          <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-          <li><a href="https://github.com">GitHub</a></li>
-          <li><a href="https://www.instagram.com">Instagram</a></li>
-          <li><a href="https://x.com">X</a></li>
-        </ul>
+<main>
+
+  <section class="wrap hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Electrical engineering student · Year 2</p>
+      <h1>Hi, I'm Catherine. I build Python-powered systems that solve real problems.</h1>
+      <p class="lead">A second-year electrical engineering student who turns ideas into working prototypes, and who does her best work with a good team around her.</p>
+      <div class="actions">
+        <a class="btn primary" href="/projects.html">See selected work</a>
+        <a class="btn outline" href="/cv.html">View CV</a>
       </div>
-      <div class="avatar" aria-hidden="true">C</div>
-    </section>
+      <div class="pills">
+        <span class="pill">Open to summer internships</span>
+        <span class="pill">Dean's List</span>
+      </div>
+    </div>
 
-    <ul class="stats">
-      <li><strong>Year 2</strong><span>BEng Engineering</span></li>
-      <li><strong>6</strong><span>Projects shipped</span></li>
-      <li><strong>2nd</strong><span>Place, University Hackathon</span></li>
-      <li><strong>Dean's List</strong><span>Academic excellence</span></li>
-    </ul>
+    <div class="scope-wrap">
+      <div class="scope">
+        <div class="scope-row"><span>CH1  50 Hz</span><span>CH2  PWM 20 kHz</span></div>
+        <svg viewBox="0 0 520 380" role="img" aria-label="Decorative oscilloscope view showing a sine wave above a square wave">
+          <defs>
+            <pattern id="grid" width="40" height="38" patternUnits="userSpaceOnUse">
+              <path d="M40 0H0V38" fill="none" stroke="#243247" stroke-width="1"></path>
+            </pattern>
+          </defs>
+          <rect width="520" height="380" fill="url(#grid)"></rect>
+          <path d="M0 120 C43 -10, 87 -10, 130 120 S217 250, 260 120 S347 -10, 390 120 S477 250, 520 120" fill="none" stroke="#c9a8f0" stroke-width="3"></path>
+          <path d="M0 340 H40 V290 H100 V340 H160 V290 H220 V340 H280 V290 H340 V340 H400 V290 H460 V340 H520" fill="none" stroke="#8fb6e8" stroke-width="3"></path>
+          <circle cx="130" cy="120" r="5" fill="#f3f4f1"></circle>
+          <circle cx="390" cy="120" r="5" fill="#f3f4f1"></circle>
+        </svg>
+        <div class="scope-row"><span>Fig. 1</span><span>Demo graphic</span></div>
+      </div>
+    </div>
+  </section>
 
-    <section>
+  <section class="focus">
+    <div class="wrap">
       <div class="section-head">
-        <h2>Featured projects</h2>
+        <p class="eyebrow">What I work on</p>
+        <h2>Three areas where I do my best work</h2>
+      </div>
+      <div class="cards">
+        <div class="panel">
+          <svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9l-7 7 7 7M20 9l7 7-7 7M18 6l-4 20"></path></svg>
+          <h3>Python and data</h3>
+          <p>Automation, analysis and visualisation. Python is my go-to for turning raw sensor data into answers.</p>
+        </div>
+        <div class="panel">
+          <svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="16" height="16" rx="2"></rect><path d="M12 3v5M20 3v5M12 24v5M20 24v5M3 12h5M3 20h5M24 12h5M24 20h5"></path></svg>
+          <h3>Embedded and control</h3>
+          <p>Raspberry Pi and Arduino builds, sensor integration and PID control for robots and monitoring systems.</p>
+        </div>
+        <div class="panel">
+          <svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="5"></circle><path d="M16 3v4M16 25v4M3 16h4M25 16h4M6.8 6.8l2.8 2.8M22.4 22.4l2.8 2.8M6.8 25.2l2.8-2.8M22.4 9.6l2.8-2.8"></path></svg>
+          <h3>Innovation in teams</h3>
+          <p>Fresh ideas for energy and sustainability problems, built with people who all feel heard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="wrap">
+      <div class="work-head">
+        <div class="section-head">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects I'm proud of</h2>
+        </div>
         <a href="/projects.html">All projects →</a>
       </div>
-      <div class="grid">
-        <article class="card">
-          <p class="meta">Python · Raspberry Pi · MQTT</p>
-          <h3>Smart Campus Energy Monitor</h3>
-          <p>Live dashboard tracking power use across lab rooms, helping a pilot group cut idle consumption by an estimated 18%.</p>
-        </article>
-        <article class="card">
-          <p class="meta">Team of 4 · PID control</p>
-          <h3>Line-Following Robot</h3>
-          <p>Led software for an autonomous robot that finished its course 30% faster than the class average.</p>
-        </article>
-        <article class="card">
-          <p class="meta">Python · OR-Tools · Flask</p>
-          <h3>Smart Study Planner</h3>
-          <p>A scheduler that builds a weekly study timetable around lectures, deadlines and energy levels.</p>
-        </article>
-      </div>
-    </section>
 
-    <section class="two-col">
-      <div>
-        <h2>Core skills</h2>
-        <ul class="chips">
-          <li>Python</li><li>NumPy</li><li>pandas</li><li>Flask</li>
-          <li>Arduino</li><li>Raspberry Pi</li><li>C / C++</li><li>MATLAB</li>
-          <li>CAD</li><li>Circuit design</li><li>Git</li><li>Data analysis</li>
-        </ul>
-      </div>
-      <div>
-        <h2>What people say</h2>
-        <blockquote class="card">
-          <p>"Catherin keeps the whole team calm and moving. She explains tough ideas simply and always has a fresh approach to the problem."</p>
-          <footer>— Project teammate (demo quote)</footer>
-        </blockquote>
-      </div>
-    </section>
-  </main>
+      <div class="cards">
+        <article class="project">
+          <div class="project-art">
+            <svg viewBox="0 0 240 100" width="240" height="100" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M0 70H30V30H70V70H110V30H150V70H190V30H230"></path><path class="acc" d="M0 90H240"></path></svg>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Python · Raspberry Pi · MQTT</span>
+            <h3>Smart Campus Energy Monitor</h3>
+            <p>Sensors stream power data from lab rooms to a live dashboard and flag equipment left on overnight. Cut idle use by an estimated 18% in the pilot.</p>
+            <a href="/projects.html">Read more →</a>
+          </div>
+        </article>
 
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Catherin. Demo site.</p>
-    <ul class="socials">
-      <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-      <li><a href="https://github.com">GitHub</a></li>
-      <li><a href="https://www.instagram.com">Instagram</a></li>
-      <li><a href="https://x.com">X</a></li>
-    </ul>
-  </footer>
-  <script src="/js/main.js"></script>
+        <article class="project">
+          <div class="project-art">
+            <svg viewBox="0 0 240 100" width="240" height="100" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M10 20H80L100 50H170L190 80H230"></path><path class="acc" d="M10 50H70M10 80H110"></path><circle class="tint" cx="80" cy="20" r="6"></circle><circle class="tint" cx="170" cy="50" r="6"></circle><circle class="tint" cx="230" cy="80" r="6"></circle></svg>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Team of 4 · PID control · MicroPython</span>
+            <h3>Autonomous Line-Following Robot</h3>
+            <p>Led the software: sensor filtering and a tuned PID loop. Finished the course 30% faster than the class average.</p>
+            <a href="/projects.html">Read more →</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-art">
+            <svg viewBox="0 0 240 100" width="240" height="100" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M0 60C30 0, 60 0, 90 60S150 120, 180 60S210 20, 240 40"></path><path class="acc" d="M0 90H240"></path></svg>
+          </div>
+          <div class="project-body">
+            <span class="project-meta">Hackathon · 2nd place · 24 hours</span>
+            <h3>Drip: Smart Irrigation</h3>
+            <p>Soil-moisture sensors and a weather API decide when to water, saving water in a community garden prototype.</p>
+            <a href="/projects.html">Read more →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <div class="contact-copy">
+        <p class="eyebrow">Contact</p>
+        <h2>Have a project, internship or idea to talk through?</h2>
+        <p>I'm looking for internships, collaborations and interesting problems. Say hello!</p>
+      </div>
+      <div class="contact-links">
+        <a class="email" href="mailto:hello@example.com">hello@example.com</a>
+        <div class="social-row">
+          <a href="https://www.linkedin.com">LinkedIn</a>
+          <a href="https://github.com">GitHub</a>
+          <a href="https://www.instagram.com">Instagram</a>
+          <a href="https://x.com">X</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; <span id="year"></span> Catherine. Demo site.</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="https://www.linkedin.com">LinkedIn</a>
+      <a href="https://github.com">GitHub</a>
+      <a href="https://www.instagram.com">Instagram</a>
+      <a href="https://x.com">X</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
 </body>
 </html>
