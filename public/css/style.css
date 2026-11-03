@@ -176,7 +176,7 @@ nav a.cta:hover { border-color: var(--accent); }
 .page-head h1 { font-size: clamp(2.125rem, 4.8vw, 4.25rem); line-height: 1.08; letter-spacing: -0.02em; font-weight: 600; max-width: 18em; }
 
 /* Cards */
-.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr)); gap: 1.5rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(17.5rem, 100%), 1fr)); gap: 1.5rem; }
 .panel { background: var(--bg); border: 1px solid var(--line); border-radius: 0.375rem; padding: 1.75rem; display: flex; flex-direction: column; gap: 0.875rem; }
 .panel h3 { font-size: 1.3125rem; }
 .panel p { color: var(--muted); }
@@ -247,7 +247,7 @@ a.panel:hover { border-color: var(--accent); }
 .cv-job { margin-bottom: 1.25rem; }
 .cv-job h3 { font-size: 1.125rem; }
 .cv-when { font-family: var(--mono); font-size: 0.8125rem; color: var(--muted); }
-.cv-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr)); gap: 2rem; }
+.cv-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(18.75rem, 100%), 1fr)); gap: 2rem; }
 .cv-demo { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); }
 
 /* 404 */
