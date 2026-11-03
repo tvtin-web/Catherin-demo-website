@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catherin — Personal Website</title>
-  <meta name="description" content="Demo personal website for Catherin.">
+  <title>Catherin — Engineering Student</title>
+  <meta name="description" content="Catherin is a second-year engineering student who builds innovative, Python-powered solutions and loves working in teams.">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -20,24 +20,82 @@
 
   <main>
     <section class="hero">
-      <p class="eyebrow">Hello, I'm</p>
-      <h1>Catherin</h1>
-      <p class="lead">A short one-line tagline about what I do goes here.</p>
-      <a class="button" href="/projects.html">See my work</a>
+      <div>
+        <p class="eyebrow">Hello, I'm Catherin 👋</p>
+        <h1>I build things that solve real problems.</h1>
+        <p class="lead">Second-year engineering student. Python enthusiast, team player and endless tinkerer, turning ideas into working prototypes.</p>
+        <div class="actions">
+          <a class="button" href="/projects.html">See my work</a>
+          <a class="button ghost" href="/contact.html">Get in touch</a>
+        </div>
+        <ul class="socials">
+          <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+          <li><a href="https://github.com">GitHub</a></li>
+          <li><a href="https://www.instagram.com">Instagram</a></li>
+          <li><a href="https://x.com">X</a></li>
+        </ul>
+      </div>
+      <div class="avatar" aria-hidden="true">C</div>
     </section>
 
+    <ul class="stats">
+      <li><strong>Year 2</strong><span>BEng Engineering</span></li>
+      <li><strong>6</strong><span>Projects shipped</span></li>
+      <li><strong>2nd</strong><span>Place, University Hackathon</span></li>
+      <li><strong>Dean's List</strong><span>Academic excellence</span></li>
+    </ul>
+
     <section>
-      <h2>Highlights</h2>
+      <div class="section-head">
+        <h2>Featured projects</h2>
+        <a href="/projects.html">All projects →</a>
+      </div>
       <div class="grid">
-        <article class="card"><h3>Highlight one</h3><p>Placeholder text.</p></article>
-        <article class="card"><h3>Highlight two</h3><p>Placeholder text.</p></article>
-        <article class="card"><h3>Highlight three</h3><p>Placeholder text.</p></article>
+        <article class="card">
+          <p class="meta">Python · Raspberry Pi · MQTT</p>
+          <h3>Smart Campus Energy Monitor</h3>
+          <p>Live dashboard tracking power use across lab rooms, helping a pilot group cut idle consumption by an estimated 18%.</p>
+        </article>
+        <article class="card">
+          <p class="meta">Team of 4 · PID control</p>
+          <h3>Line-Following Robot</h3>
+          <p>Led software for an autonomous robot that finished its course 30% faster than the class average.</p>
+        </article>
+        <article class="card">
+          <p class="meta">Python · OR-Tools · Flask</p>
+          <h3>Smart Study Planner</h3>
+          <p>A scheduler that builds a weekly study timetable around lectures, deadlines and energy levels.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div>
+        <h2>Core skills</h2>
+        <ul class="chips">
+          <li>Python</li><li>NumPy</li><li>pandas</li><li>Flask</li>
+          <li>Arduino</li><li>Raspberry Pi</li><li>C / C++</li><li>MATLAB</li>
+          <li>CAD</li><li>Circuit design</li><li>Git</li><li>Data analysis</li>
+        </ul>
+      </div>
+      <div>
+        <h2>What people say</h2>
+        <blockquote class="card">
+          <p>"Catherin keeps the whole team calm and moving. She explains tough ideas simply and always has a fresh approach to the problem."</p>
+          <footer>— Project teammate (demo quote)</footer>
+        </blockquote>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>&copy; <span id="year"></span> Catherin. Demo site.</p>
+    <ul class="socials">
+      <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+      <li><a href="https://github.com">GitHub</a></li>
+      <li><a href="https://www.instagram.com">Instagram</a></li>
+      <li><a href="https://x.com">X</a></li>
+    </ul>
   </footer>
   <script src="/js/main.js"></script>
 </body>
